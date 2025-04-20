@@ -1,0 +1,53 @@
+
+#text{
+  float: right;
+  width: 70%;
+
+}
+#imag{
+  background: url('some.png')
+   no-repeat left top ;
+   height: 100vh;
+   width: 30%;
+float: left;
+}
+@media (max-width: 480px) {
+  #text{
+  float: right;
+  width: 100%;
+  position: relative;
+  top: 430px;
+  }
+
+#imag{
+  float: left;
+  width: 500px;
+  position: relative;
+  right: 100px;
+  top: -810px;
+  height: 600px;
+}
+
+}
+
+@media (max-width: 360px) {
+  #imag{
+    position: relative;
+    top: -900px;
+    right:120px;
+  }
+}
+@media (max-width: 300px) {
+
+#imag{
+  position: relative;
+  top: -1000px;
+}
+
+}
+
+@media (max-width: 310px) {
+#imag{
+  top: -950px;
+}
+}
